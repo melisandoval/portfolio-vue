@@ -1,7 +1,10 @@
 <template>
+  <div id="#app"></div>
   <body>
-    <h1>Porfolio website</h1>
+    <Navbar />
   </body>
 </template>
 
-<script setup></script>
+<script setup>
+import Navbar from './Components/Navbar/Navbar.vue'
+</script>

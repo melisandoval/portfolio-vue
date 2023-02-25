@@ -1,5 +1,23 @@
+:root {
+  --main-bg-color: #ffffff;
+  --black: #000;
+}
+
 #app {
   margin: 0;
   font-family: Helvetica, sans-serif;
   min-height: 100vh;
+  background-color: var(--main-bg-color);
+  color: var(--black);
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 1em;
+  margin: 0;
 }
