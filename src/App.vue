@@ -1,10 +1,10 @@
 <template>
   <div id="#app"></div>
   <body>
-    <Navbar />
+    <NavBar />
   </body>
 </template>
 
 <script setup>
-import Navbar from './Components/Navbar/Navbar.vue'
+import NavBar from './Navbar/NavBar.vue'
 </script>

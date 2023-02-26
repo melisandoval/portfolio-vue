@@ -25,7 +25,7 @@
 <style scoped>
 @media screen and (min-width: 768px) {
   .burger-menu {
-    visibility: hidden;
+    display: none;
   }
 }
 </style>

@@ -21,3 +21,14 @@ button {
   padding: 1em;
   margin: 0;
 }
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* coment */
