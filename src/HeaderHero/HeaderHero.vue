@@ -1,21 +1,23 @@
 <template>
   <div class="header-container">
-    <article>
-      <h1>
-        <span class="h1-minor">Hi! <span class="h1-highlight">I'm Melisa</span>,</span> <br />
-        <span class="h1-major"
-          >Front-end <br />
-          Developer</span
-        >
-      </h1>
-      <p>I create beautiful, user-friendly digital products.</p>
-      <div class="header-links-container">
-        <a href="#contact" class="header-contact-link">Contact me</a>
-        <a href="#" class="header-download-cv-link">Download CV</a>
+    <div class="header-content-container">
+      <article>
+        <h1>
+          <span class="h1-minor">Hi! <span class="h1-highlight">I'm Melisa</span>,</span> <br />
+          <span class="h1-major"
+            >Front-end <br />
+            Developer</span
+          >
+        </h1>
+        <p>I create beautiful, user-friendly digital products.</p>
+        <div class="header-links-container">
+          <a href="#contact" class="header-contact-link">Contact me</a>
+          <a href="#" class="header-download-cv-link">Download CV</a>
+        </div>
+      </article>
+      <div class="header-img-container">
+        <img src="/assets/github-avatar.jpg" alt="" />
       </div>
-    </article>
-    <div class="header-img-container">
-      <img src="../../public/assets/github-avatar.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -24,10 +26,14 @@
 
 <style scoped>
 .header-container {
+  max-width: 100%;
+}
+.header-content-container {
+  padding: 4em 1em;
   min-height: 90vh;
+  max-width: 100%;
   display: grid;
   place-items: center;
-  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,16 +41,19 @@
   text-align: center;
 }
 
+h1 {
+  margin-block-end: 0em;
+}
+
 .h1-minor {
   font-weight: 400;
   line-height: 2em;
-  font-size: 2rem;
+  font-size: calc(2rem + 0.390625vw);
 }
 
 .h1-major {
-  font-size: 3rem;
+  font-size: calc(3rem + 0.390625vw);
   line-height: 1.3em;
-  font-size: 3rem;
 }
 
 .h1-highlight {
@@ -54,7 +63,7 @@
 
 p {
   line-height: 150%;
-  font-size: 1rem;
+  font-size: calc(1rem + 0.390625vw);
 }
 
 .header-links-container {
@@ -101,30 +110,32 @@ a:hover {
 }
 
 .header-img-container {
-  max-width: 80%;
+  width: 100%;
   display: grid;
   place-items: center;
-  margin: 3em;
+  margin: 2em;
 }
 
 img {
-  padding: 0.5em;
-  max-width: 100%;
-  border-style: dotted solid;
+  max-width: 80%;
   border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
+  .header-content-container {
+    padding: 1em;
+  }
   .header-links-container {
     flex-direction: row;
   }
 
   a {
-    font-size: 1rem;
-    width: 120px;
+    font-size: calc(1rem + 0.390625vw);
+    width: 8em;
+    text-align: center;
   }
 
-  .header-container {
+  .header-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -136,9 +147,47 @@ img {
     text-align: left;
     padding-left: 3em;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-content-container {
+    grid-template-columns: 55% 45%;
+  }
+
+  .header-img-container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    display: grid;
+    place-items: center;
+  }
+  .header-content-container {
+    max-width: 80%;
+  }
+  .header-img-container {
+    max-width: 84%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  p,
+  .h1-minor,
+  .h1-highlight {
+    font-size: calc(2rem + 0.390625vw);
+  }
+
+  .header-links-container {
+    gap: 3em;
+  }
 
   a {
-    text-align: center;
+    font-size: calc(1.6rem + 0.390625vw);
+  }
+  .h1-major {
+    font-size: calc(7rem + 0.390625vw);
   }
 }
 </style>
