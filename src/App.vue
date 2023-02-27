@@ -3,6 +3,7 @@
   <body>
     <NavBarMobile v-if="showMobileMenu" @onMobileNavbarLinkClicked="handleCloseMobileNavbar" />
     <NavBar @onBurgerMenuClicked="handleShowMobileNavbar" />
+    <HeaderHero />
   </body>
 </template>
 
@@ -10,6 +11,7 @@
 import { ref } from 'vue'
 import NavBar from './Navbar/NavBar.vue'
 import NavBarMobile from './NavBar/NavbarMobile.vue'
+import HeaderHero from './HeaderHero/HeaderHero.vue'
 
 const showMobileMenu = ref(false)
 

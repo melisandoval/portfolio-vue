@@ -1,7 +1,10 @@
 :root {
   --main-bg-color: #ffffff;
   --black: #000;
+  --pink: #f3afa8;
 }
+
+/* Another pink: #fac6bb */
 
 #app {
   margin: 0;
