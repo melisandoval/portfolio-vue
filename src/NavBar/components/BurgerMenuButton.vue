@@ -1,8 +1,8 @@
 <template>
   <button @click="$emit('onBurgerMenuClicked')" class="burger-menu">
     <svg
-      width="29px"
-      height="29px"
+      width="25px"
+      height="25px"
       stroke-width="2.06"
       viewBox="0 0 24 24"
       fill="none"

@@ -5,7 +5,7 @@
 
 #app {
   margin: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Epilogue', sans-serif, Helvetica, sans-serif;
   min-height: 100vh;
   background-color: var(--main-bg-color);
   color: var(--black);
@@ -29,6 +29,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: var(--black);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* coment */
