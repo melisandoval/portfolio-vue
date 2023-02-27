@@ -77,8 +77,8 @@ p {
 a {
   padding: 1em 0;
   border-radius: 0.3em;
-  font-size: 0.7rem;
-  width: 80px;
+  font-size: calc(0.7rem + 0.390625vw);
+  width: 100px;
 }
 
 a:hover {
@@ -130,7 +130,7 @@ img {
   }
 
   a {
-    font-size: calc(1rem + 0.390625vw);
+    font-size: calc(0.7rem + 0.390625vw);
     width: 8em;
     text-align: center;
   }
