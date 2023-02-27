@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <section>
+    <article>
       <h1>
         <span class="h1-minor">Hi! <span class="h1-highlight">I'm Melisa</span>,</span> <br />
         <span class="h1-major"
@@ -13,7 +13,10 @@
         <a href="#contact" class="header-contact-link">Contact me</a>
         <a href="#" class="header-download-cv-link">Download CV</a>
       </div>
-    </section>
+    </article>
+    <div class="header-img-container">
+      <img src="../../public/assets/github-avatar.jpg" alt="" />
+    </div>
   </div>
 </template>
 
@@ -46,6 +49,7 @@
 
 .h1-highlight {
   color: #f3afa8;
+  font-weight: bold;
 }
 
 p {
@@ -62,7 +66,7 @@ p {
 }
 
 a {
-  padding: 1em;
+  padding: 1em 0;
   border-radius: 0.3em;
   font-size: 0.7rem;
   width: 80px;
@@ -81,6 +85,7 @@ a:hover {
 .header-contact-link:hover {
   background-color: #ffffff;
   color: black;
+  font-weight: bold;
 }
 
 .header-download-cv-link {
@@ -92,6 +97,21 @@ a:hover {
 .header-download-cv-link:hover {
   background-color: #ffffff;
   color: #f3afa8;
+  font-weight: bold;
+}
+
+.header-img-container {
+  max-width: 80%;
+  display: grid;
+  place-items: center;
+  margin: 3em;
+}
+
+img {
+  padding: 0.5em;
+  max-width: 100%;
+  border-style: dotted solid;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -101,7 +121,24 @@ a:hover {
 
   a {
     font-size: 1rem;
-    width: 110px;
+    width: 120px;
+  }
+
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 3em;
+  }
+
+  a {
+    text-align: center;
   }
 }
 </style>
