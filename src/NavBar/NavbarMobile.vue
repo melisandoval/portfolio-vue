@@ -4,7 +4,7 @@
       <ul>
         <li><a href="#about" @click="handleChange">About</a></li>
         <li>
-          <a href="#projects" @click="handleChange">Projects</a>
+          <a href="#work" @click="handleChange">Work</a>
         </li>
         <li><a href="#contact" @click="handleChange">Contact</a></li>
       </ul>
@@ -29,5 +29,11 @@ function handleChange() {
   display: grid;
   place-items: center;
   background-color: white;
+}
+
+ul {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3em;
 }
 </style>

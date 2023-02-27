@@ -39,6 +39,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 2em;
 }
 
 h1 {
@@ -166,6 +167,7 @@ img {
   }
   .header-content-container {
     max-width: 80%;
+    gap: 0;
   }
   .header-img-container {
     max-width: 84%;
