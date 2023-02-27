@@ -23,6 +23,10 @@
 <script setup></script>
 
 <style scoped>
+.burger-menu {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .burger-menu {
     display: none;
