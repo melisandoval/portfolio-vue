@@ -9,9 +9,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import NavBar from './Navbar/NavBar.vue'
-import NavBarMobile from './NavBar/NavbarMobile.vue'
-import HeaderHero from './HeaderHero/HeaderHero.vue'
+import NavBar from './components/NavBar/NavBar.vue'
+import NavBarMobile from './components/NavBar/NavbarMobile.vue'
+import HeaderHero from './components/HeaderHero/HeaderHero.vue'
 
 const showMobileMenu = ref(false)
 

@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-container">
     <nav>
-      <BurgerMenuButton @click="$emit('onBurgerMenuClicked')" />
+      <BurgerMenuButton />
       <NavBarLinks />
     </nav>
   </div>
