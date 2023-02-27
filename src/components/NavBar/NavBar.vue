@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-container">
     <nav>
-      <BurgerMenuButton />
+      <BurgerMenuButton @click="$emit('onBurgerMenuClicked')" />
       <NavBarLinks />
     </nav>
   </div>
@@ -14,6 +14,12 @@ import NavBarLinks from './components/NavBarLinks.vue'
 
 <style scoped>
 .navbar-container {
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+nav {
   display: flex;
   justify-content: flex-end;
 }

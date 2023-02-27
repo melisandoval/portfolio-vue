@@ -30,7 +30,7 @@
 }
 .header-content-container {
   padding: 4em 1em;
-  min-height: 90vh;
+  min-height: 80vh;
   max-width: 100%;
   display: grid;
   place-items: center;
@@ -87,14 +87,14 @@ a:hover {
 }
 
 .header-contact-link {
-  background-color: black;
+  background-color: #2d2d2d;
   color: #ffffff;
-  border: 2px solid black;
+  border: 2px solid #2d2d2d;
 }
 
 .header-contact-link:hover {
   background-color: #ffffff;
-  color: black;
+  color: #2d2d2d;
   font-weight: bold;
 }
 

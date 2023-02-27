@@ -26,9 +26,15 @@ li {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   ul {
     gap: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  ul {
     padding: 0.5em 2em;
   }
 
