@@ -26,6 +26,7 @@
 
 <style scoped>
 .header-container {
+  padding-top: 2em;
   max-width: 100%;
 }
 .header-content-container {
