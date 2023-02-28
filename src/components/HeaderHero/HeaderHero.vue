@@ -16,7 +16,7 @@
         </div>
       </article>
       <div class="header-img-container">
-        <img src="/assets/github-avatar.jpg" alt="" />
+        <img src="/assets/portfolio-avatar-v2.jpg" alt="Avatar" />
       </div>
     </div>
   </div>
@@ -94,21 +94,22 @@ a:hover {
 }
 
 .header-contact-link:hover {
-  background-color: #ffffff;
-  color: #2d2d2d;
+  background-color: #ff6352;
+  color: white;
   font-weight: bold;
+  border: 2px solid #ff6352;
 }
 
 .header-download-cv-link {
-  background-color: #f3afa8;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #f3afa8;
   border: 2px solid #f3afa8;
 }
 
 .header-download-cv-link:hover {
-  background-color: #ffffff;
-  color: #f3afa8;
   font-weight: bold;
+  background-color: #f3afa8;
+  color: #ffffff;
 }
 
 .header-img-container {
@@ -149,11 +150,17 @@ img {
     text-align: left;
     padding-left: 3em;
   }
+
+  img {
+    max-width: 85%;
+    padding-right: 3em;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .header-content-container {
     grid-template-columns: 55% 45%;
+    gap: 0;
   }
 
   .header-img-container {
@@ -168,10 +175,10 @@ img {
   }
   .header-content-container {
     max-width: 80%;
-    gap: 0;
+    grid-template-columns: 1fr 1fr;
   }
   .header-img-container {
-    max-width: 84%;
+    max-width: 70%;
   }
 }
 
