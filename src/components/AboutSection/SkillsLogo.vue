@@ -13,11 +13,12 @@ const props = defineProps(['src', 'alt', 'text'])
 
 <style scoped>
 .logo-div-container {
-  padding: 1em;
+  padding: 0.4em;
 }
 
 .logo-container {
   height: 50px;
+  width: auto;
 }
 
 img {
@@ -34,6 +35,10 @@ p {
 @media screen and (min-width: 1440px) {
   .logo-container {
     height: 60px;
+  }
+
+  .logo-div-container {
+    padding: 1.3em;
   }
 }
 

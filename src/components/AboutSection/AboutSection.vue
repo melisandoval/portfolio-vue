@@ -22,11 +22,23 @@
         </p>
       </article>
       <section>
-        <h2>Skills</h2>
+        <h2>Tech stack</h2>
         <div class="logos-section">
           <div class="skills-logos-container">
             <SkillsLogo
               v-for="logo in SKILLS_LOGOS"
+              :key="logo.id"
+              :src="logo.src"
+              :alt="logo.alt"
+              :text="logo.text"
+            />
+          </div>
+        </div>
+        <h2>Tools</h2>
+        <div class="logos-section">
+          <div class="skills-logos-container">
+            <SkillsLogo
+              v-for="logo in TOOLS_LOGOS"
               :key="logo.id"
               :src="logo.src"
               :alt="logo.alt"
@@ -42,6 +54,7 @@
 <script setup>
 import SkillsLogo from './SkillsLogo.vue'
 import { SKILLS_LOGOS } from '../../constants.js'
+import { TOOLS_LOGOS } from '../../constants.js'
 </script>
 
 <style scoped>
@@ -57,8 +70,12 @@ import { SKILLS_LOGOS } from '../../constants.js'
   padding: 1em;
 }
 
+article {
+  padding-bottom: 1em;
+}
+
 h2 {
-  padding: 2em 0 1em;
+  padding: 1em 0;
 }
 
 p {
