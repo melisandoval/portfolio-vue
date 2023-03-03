@@ -11,8 +11,8 @@
         </h1>
         <p>I create beautiful, user-friendly digital products.</p>
         <div class="header-links-container">
-          <a href="#contact" class="header-contact-link">Contact me</a>
-          <a href="#" class="header-download-cv-link">Download CV</a>
+          <LinkPrimary href="#contact" text="Contact me" />
+          <LinkSecondary href="#" text="Download CV" />
         </div>
       </article>
       <div class="header-img-container">
@@ -22,7 +22,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import LinkPrimary from '../LinkPrimary.vue'
+import LinkSecondary from '../LinkSecondary.vue'
+</script>
 
 <style scoped>
 .header-container {
@@ -76,42 +79,6 @@ p {
   padding-top: 1em;
 }
 
-a {
-  padding: 1em 0;
-  border-radius: 0.3em;
-  font-size: calc(0.7rem + 0.390625vw);
-  width: 100px;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.header-contact-link {
-  background-color: #2d2d2d;
-  color: #ffffff;
-  border: 2px solid #2d2d2d;
-}
-
-.header-contact-link:hover {
-  background-color: #ff6352;
-  color: white;
-  font-weight: bold;
-  border: 2px solid #ff6352;
-}
-
-.header-download-cv-link {
-  background-color: #ffffff;
-  color: #f3afa8;
-  border: 2px solid #f3afa8;
-}
-
-.header-download-cv-link:hover {
-  font-weight: bold;
-  background-color: #f3afa8;
-  color: #ffffff;
-}
-
 .header-img-container {
   width: 100%;
   display: grid;
@@ -130,12 +97,6 @@ img {
   }
   .header-links-container {
     flex-direction: row;
-  }
-
-  a {
-    font-size: calc(0.7rem + 0.390625vw);
-    width: 8em;
-    text-align: center;
   }
 
   .header-content-container {
@@ -193,9 +154,6 @@ img {
     gap: 3em;
   }
 
-  a {
-    font-size: calc(1.6rem + 0.390625vw);
-  }
   .h1-major {
     font-size: calc(7rem + 0.390625vw);
   }
