@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" class="pink-link" :target="target">{{ text }}</a>
+  <a :href="props.href" class="pink-link" :target="props.target">{{ text }}</a>
 </template>
 
 <script setup>
