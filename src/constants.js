@@ -23,3 +23,48 @@ export const TOOLS_LOGOS = [
   { id: 14, src: '/assets/skills-logos/jira.png', alt: 'Jira logo', text: 'Jira' },
   { id: 15, src: '/assets/skills-logos/photoshop.png', alt: 'Photoshop logo', text: 'Photoshop' }
 ]
+
+export const PROJECTS = [
+  {
+    id: 1,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of My Lists App',
+    title: 'My Lists App',
+    stack: ['Vue.js,', 'Vue Router,', 'Pinia,', 'Supabase,', 'CSS3.']
+  },
+  {
+    id: 2,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of Circle Agency Website',
+    title: 'Circle Agency Website',
+    stack: ['HTML5,', 'CSS3,', 'JavaScript,', 'Firebase.']
+  },
+  {
+    id: 3,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of The Simpsons Memory Game',
+    title: 'The Simpsons Memory Game',
+    stack: ['React,', 'CSS3.']
+  },
+  {
+    id: 4,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of First Portfolio Website',
+    title: 'First Portfolio Website',
+    stack: ['HTML5,', 'CSS3,', 'JavaScript.']
+  },
+  {
+    id: 5,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of Cool Dogs Product Page',
+    title: 'Cool Dogs Product Page',
+    stack: ['HTML5,', 'CSS3,', 'JavaScript.']
+  },
+  {
+    id: 6,
+    img: 'https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+    alt: 'Screenshot of Janis Joplin Tribute Website',
+    title: 'Janis Joplin Tribute Website',
+    stack: ['HTML5,', 'CSS3.']
+  }
+]
