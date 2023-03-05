@@ -19,6 +19,15 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
 <style scoped>
 .project-card {
   max-width: 100%;
+  padding: 1.5em;
+  border-radius: 0.2em;
+  background-color: #f3afa829;
+}
+
+.project-card:hover {
+  cursor: pointer;
+  background-color: #ff6352;
+  color: white;
 }
 
 .project-card img {
@@ -39,6 +48,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   font-size: calc(0.7rem + 0.390625vw);
+  line-height: 140%;
 }
 
 p span {

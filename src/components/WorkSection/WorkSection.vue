@@ -12,7 +12,6 @@
         :stack="project.stack"
       />
     </div>
-
     <LinkPrimary href="https://github.com/melisandoval" text="See more on GitHub" target="_blank" />
   </section>
 </template>
@@ -31,7 +30,7 @@ import { PROJECTS } from '../../constants.js'
 }
 
 .projects-container {
-  padding: 1em;
+  padding: 2em 1em 4em;
   max-width: 100%;
   text-align: left;
   display: grid;
