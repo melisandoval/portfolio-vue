@@ -1,7 +1,10 @@
 <template>
   <section id="contact">
     <div class="contact-list-container">
-      <h2>Lets work together!</h2>
+      <div class="contact-title-container">
+        <h2>Get it touch</h2>
+        <SVGCoffee />
+      </div>
       <ul>
         <li><IconLinkEmail /></li>
         <li><IconLinkLinkedIn /></li>
@@ -16,6 +19,7 @@
 import IconLinkEmail from './components/IconLinkEmail.vue'
 import IconLinkLinkedIn from './components/IconLinkLinkedIn.vue'
 import IconLinkGitHub from './components/IconLinkGitHub.vue'
+import SVGCoffee from './components/SVGCoffee.vue'
 import LinkPrimary from '../LinkPrimary.vue'
 </script>
 
@@ -28,6 +32,12 @@ import LinkPrimary from '../LinkPrimary.vue'
   margin-bottom: 6em;
 }
 
+.contact-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
 .contact-list-container {
   width: 100%;
   display: grid;
@@ -35,7 +45,8 @@ import LinkPrimary from '../LinkPrimary.vue'
 }
 
 h2 {
-  margin-bottom: 1em;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 ul {
