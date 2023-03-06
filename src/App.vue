@@ -3,10 +3,13 @@
   <body>
     <NavBarMobile v-if="showMobileMenu" @onMobileNavbarLinkClicked="handleCloseMobileNavbar" />
     <NavBar @onBurgerMenuClicked="handleShowMobileNavbar" />
-    <HeaderHero />
-    <AboutSection />
-    <WorkSection />
-    <ContactSection />
+    <main>
+      <HeaderHero />
+      <AboutSection />
+      <WorkSection />
+      <ContactSection />
+    </main>
+    <FooterSection />
   </body>
 </template>
 
@@ -18,6 +21,7 @@ import HeaderHero from './components/HeaderHero/HeroHeader.vue'
 import AboutSection from './components/AboutSection/AboutSection.vue'
 import WorkSection from './components/WorkSection/WorkSection.vue'
 import ContactSection from './components/ContactSection/ContactSection.vue'
+import FooterSection from './components/FooterSection/FooterSection.vue'
 
 const showMobileMenu = ref(false)
 
