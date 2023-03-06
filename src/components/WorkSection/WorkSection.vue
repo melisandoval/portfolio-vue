@@ -30,11 +30,12 @@ import { PROJECTS } from '../../constants.js'
 }
 
 .projects-container {
-  padding: 2em 1em 4em;
+  margin-bottom: 2em;
+  padding: 2em 1em;
   max-width: 100%;
   text-align: left;
   display: grid;
-  gap: 2em;
+  gap: 4em;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,7 +44,7 @@ import { PROJECTS } from '../../constants.js'
   }
 
   .projects-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -54,6 +55,10 @@ import { PROJECTS } from '../../constants.js'
 
   .projects-container {
     padding: 3em;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 </style>

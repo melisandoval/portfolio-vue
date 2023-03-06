@@ -19,20 +19,20 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
 <style scoped>
 .project-card {
   max-width: 100%;
-  padding: 1.5em;
-  border-radius: 0.2em;
-  background-color: #f3afa829;
+  padding: 1em;
+  color: #2d2d2d;
 }
 
 .project-card:hover {
   cursor: pointer;
-  background-color: #ff6352;
-  color: white;
+  background-color: #f3afa8;
+  color: #ffffff;
 }
 
 .project-card img {
   max-width: 100%;
   object-fit: cover;
+  margin: 1em 0;
 }
 
 .project-img-container {
@@ -40,7 +40,7 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
 }
 
 h3 {
-  font-size: calc(0.8rem + 0.390625vw);
+  font-size: calc(1rem + 0.390625vw);
 }
 
 p {
@@ -53,5 +53,11 @@ p {
 
 p span {
   padding-right: 1em;
+}
+
+.project-links-container {
+  display: flex;
+  gap: 1em;
+  padding: 0.2em 0;
 }
 </style>

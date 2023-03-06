@@ -27,42 +27,42 @@ export const TOOLS_LOGOS = [
 export const PROJECTS = [
   {
     id: 1,
-    img: '/assets/projects/project-my-lists.png',
-    alt: 'Screenshot of My Lists App',
+    img: '/assets/projects/projects-my-lists.jpg',
+    alt: 'Logo of My Lists App',
     title: 'My Lists App',
     stack: ['Vue.js,', 'Vue Router,', 'Pinia,', 'Supabase,', 'CSS3.']
   },
   {
     id: 2,
-    img: '/assets/projects/project-my-lists.png',
-    alt: 'Screenshot of Circle Agency Website',
+    img: '/assets/projects/projects-circle.jpg',
+    alt: 'Logo of Circle Agency Website',
     title: 'Circle Agency Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript,', 'Firebase.']
   },
   {
     id: 3,
-    img: '/assets/projects/project-my-lists.png',
-    alt: 'Screenshot of The Simpsons Memory Game',
+    img: '/assets/projects/projects-simpsons-memory-game.jpg',
+    alt: 'Image from The Simpsons Memory Game',
     title: 'The Simpsons Memory Game',
     stack: ['React,', 'CSS3.']
   },
   {
     id: 4,
-    img: '/assets/projects/project-my-lists.png',
-    alt: 'Screenshot of First Portfolio Website',
+    img: '/assets/projects/projects-first-portfolio.jpg',
+    alt: 'Image from First Portfolio Website',
     title: 'First Portfolio Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.']
   },
   {
     id: 5,
-    img: '/assets/projects/project-my-lists.png',
+    img: '/assets/projects/projects-cool-dogs.jpg',
     alt: 'Screenshot of Cool Dogs Product Page',
     title: 'Cool Dogs Product Page',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.']
   },
   {
     id: 6,
-    img: '/assets/projects/project-my-lists.png',
+    img: '/assets/projects/projects-janis.jpg',
     alt: 'Screenshot of Janis Joplin Tribute Website',
     title: 'Janis Joplin Tribute Website',
     stack: ['HTML5,', 'CSS3.']
