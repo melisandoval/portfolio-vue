@@ -32,7 +32,10 @@ export const PROJECTS = [
     title: 'My Lists App',
     stack: ['Vue.js,', 'Vue Router,', 'Pinia,', 'Supabase,', 'CSS3.'],
     repository: 'https://github.com/melisandoval/vue-supabase-my-lists-app',
-    live: 'https://my-lists-melisandoval.netlify.app/'
+    live: 'https://my-lists-melisandoval.netlify.app/',
+    description: [
+      'Platform that allows logged users to create, edit and delete several lists and its items. Also organize the items by done, not done and favorites and filter them.'
+    ]
   },
   {
     id: 2,
@@ -41,7 +44,10 @@ export const PROJECTS = [
     title: 'Circle Agency Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript,', 'Firebase.'],
     repository: 'https://github.com/melisandoval/circle-agency-clone',
-    live: 'https://circle-website-clone-msandoval.netlify.app/'
+    live: 'https://circle-website-clone-msandoval.netlify.app/',
+    description: [
+      'Institutional responsive website of a made up agency with three landing pages (Homepage, Product page and Contact page). Product page has dynamic URL. The website reads and post data to a Firebase database.'
+    ]
   },
   {
     id: 3,
@@ -50,7 +56,10 @@ export const PROJECTS = [
     title: 'The Simpsons Memory Game',
     stack: ['React,', 'CSS3.'],
     repository: 'https://github.com/melisandoval/react-memory-game-simpsons',
-    live: 'https://memory-game-simpsons.vercel.app/'
+    live: 'https://memory-game-simpsons.vercel.app/',
+    description: [
+      'Online memory game where any user can choose between three options of number of cards. Cards characters change in every game.'
+    ]
   },
   {
     id: 4,
@@ -59,7 +68,8 @@ export const PROJECTS = [
     title: 'First Portfolio Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.'],
     repository: 'https://github.com/melisandoval/personal-portfolio',
-    live: 'https://melisandoval.github.io/personal-portfolio/'
+    live: 'https://melisandoval.github.io/personal-portfolio/',
+    description: ['My first responsive portfolio website.']
   },
   {
     id: 5,
@@ -68,7 +78,10 @@ export const PROJECTS = [
     title: 'Cool Dogs Product Page',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.'],
     repository: 'https://github.com/melisandoval/fcc-cool-dogs-product-landing-page',
-    live: 'https://melisandoval.github.io/fcc-cool-dogs-product-landing-page/product.html'
+    live: 'https://melisandoval.github.io/fcc-cool-dogs-product-landing-page/product.html',
+    description: [
+      'An ecommerce responsive product page of a made up company that sells clothes for dogs. It has a carousel with product images and a video.'
+    ]
   },
   {
     id: 6,
@@ -77,6 +90,9 @@ export const PROJECTS = [
     title: 'Janis Joplin Tribute Website',
     stack: ['HTML5,', 'CSS3.'],
     repository: 'https://github.com/melisandoval/fcc-project-tribute-page',
-    live: 'https://melisandoval.github.io/fcc-project-tribute-page/'
+    live: 'https://melisandoval.github.io/fcc-project-tribute-page/',
+    description: [
+      'The famous tribute page project from freeCodeCamp. This was the first website I developed and has a special place in my heart. On top of the requirements, I added a parallax scrolling, a timeline section and a discography section with flipping albums.'
+    ]
   }
 ]

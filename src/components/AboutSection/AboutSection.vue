@@ -4,21 +4,20 @@
       <article>
         <h2>About</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam pellentesque
-          ipsum. Donec et tempor metus. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Maecenas libero mauris, vestibulum commodo consequat
-          vitae, malesuada ac arcu.
+          Front-end developer with solid technical skills, strong eye for UI/UX and a proactive,
+          creative and highly organized personality. With more than one year of experience
+          developing and designing applications and webpages, I am eager to keep creating digital
+          products and learn new technologies and best practices. Whether working solo or as part of
+          a team, I bring my full dedication and enthusiasm to every project and always strive to
+          develop the most quality and user-friendly solution.
         </p>
         <p>
-          In commodo condimentum fermentum. Aliquam et turpis ac nunc dignissim laoreet at in
-          tellus. Ut at arcu nec felis hendrerit malesuada. Proin et turpis et lorem scelerisque
-          convallis et et libero. Sed quis urna vel ligula rhoncus luctus in nec lacus. Nulla
-          facilisi. Praesent dolor nunc, pellentesque et nunc vitae, bibendum gravida lectus.
-        </p>
-        <p>
-          Curabitur interdum pellentesque arcu, at dictum augue mattis vel. Donec faucibus elit sit
-          amet mi consequat, quis vestibulum mauris pharetra. Duis et ipsum diam. In condimentum
-          sodales eros suscipit ultricies.
+          As part of education, I successfully completed a 300-hour Front-end Bootcamp at Ironhack,
+          a 300-hour Responsive Web Design course at freeCodeCamp and a 300-hour JavaScript
+          Algorithms and Data Structures course at the same self-taught educative platform. These
+          courses have allowed me to have a solid base of software development skills, that then I
+          expanded through developing side projects that you can find here, and in my GitHub
+          account.
         </p>
       </article>
       <section>

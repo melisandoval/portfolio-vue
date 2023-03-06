@@ -1,12 +1,12 @@
 <template>
   <div class="modal-container">
     <section class="project-modal">
+      <div class="close-button-container">
+        <button @click="$emit('onCloseButtonClicked')" class="close-button">
+          <SVGIconClose />
+        </button>
+      </div>
       <div class="modal-content-container">
-        <div class="close-button-container">
-          <button @click="$emit('onCloseButtonClicked')" class="close-button">
-            <SVGIconClose />
-          </button>
-        </div>
         <div class="img-and-stack">
           <img :src="project.img" :alt="project.alt" />
           <h4>Stack:</h4>
@@ -16,17 +16,8 @@
         </div>
         <article>
           <h3>{{ project.title }}</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam tempora minus
-            praesentium cumque laudantium voluptatum minima. Tenetur, enim libero.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam tempora minus
-            praesentium cumque laudantium voluptatum minima. Tenetur, enim libero.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam tempora minus
-            praesentium cumque laudantium voluptatum minima. Tenetur, enim libero.
+          <p v-for="(paragraph, index) in project.description" :key="index" class="description">
+            {{ paragraph }}
           </p>
           <div class="links-container">
             <LinkPrimary :href="project.repository" text="Source code" target="_blank" />
@@ -56,12 +47,13 @@ const project = computed(() => {
 .modal-container {
   position: absolute;
   width: 100%;
-  min-height: max-content;
+  min-height: 100%;
   display: grid;
   align-items: center;
   justify-items: center;
   z-index: 5;
   left: 0px;
+  background-color: #ff6352;
 }
 
 .project-modal {
@@ -94,6 +86,12 @@ img {
 
 h3 {
   font-size: calc(1.2rem + 0.390625vw);
+  margin-block-start: 0;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .links-container {
@@ -113,5 +111,23 @@ h3 {
 .close-button {
   cursor: pointer;
   padding: 0 0 2em;
+}
+
+@media screen and (min-width: 768px) {
+  .project-modal {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal-content-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1em;
+  }
+
+  article {
+    padding: 0 1.5em;
+  }
 }
 </style>
