@@ -17,7 +17,7 @@ const props = defineProps(['img', 'alt', 'title', 'stack', 'projectId'])
 const emit = defineEmits(['onProjectCardClicked'])
 
 function handleOnCardClick() {
-  emit('onProjectCardClicked', props.projectId, window.scrollY)
+  emit('onProjectCardClicked', props.projectId)
 }
 </script>
 

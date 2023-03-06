@@ -1,6 +1,6 @@
 <template>
   <div class="modal-container">
-    <section class="project-modal" :style="{ marginTop: scrollPosition }">
+    <section class="project-modal">
       <div class="modal-content-container">
         <div class="close-button-container">
           <button @click="$emit('onCloseButtonClicked')" class="close-button">
@@ -45,7 +45,7 @@ import SVGIconClose from '../SVG/SVGIconClose.vue'
 import { computed } from 'vue'
 import { PROJECTS } from '../../../constants.js'
 
-const props = defineProps(['projectId', 'scrollPosition'])
+const props = defineProps(['projectId'])
 
 const project = computed(() => {
   return PROJECTS.filter((project) => project.id === props.projectId)[0]
@@ -58,6 +58,7 @@ const project = computed(() => {
   width: 100%;
   min-height: max-content;
   display: grid;
+  align-items: center;
   justify-items: center;
   z-index: 5;
   left: 0px;
