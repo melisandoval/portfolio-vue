@@ -3,14 +3,16 @@
     <h2>Work</h2>
     <p>Check out some of my favourite projects.</p>
     <div class="projects-container">
-      <ProjectCard
-        v-for="project in PROJECTS"
-        :key="project.id"
-        :img="project.img"
-        :alt="project.alt"
-        :title="project.title"
-        :stack="project.stack"
-      />
+      <ul>
+        <ProjectCard
+          v-for="project in PROJECTS"
+          :key="project.id"
+          :img="project.img"
+          :alt="project.alt"
+          :title="project.title"
+          :stack="project.stack"
+        />
+      </ul>
     </div>
     <LinkPrimary href="https://github.com/melisandoval" text="See more on GitHub" target="_blank" />
   </section>
@@ -34,8 +36,17 @@ import { PROJECTS } from '../../constants.js'
   padding: 2em 1em;
   max-width: 100%;
   text-align: left;
+}
+
+ul {
+  width: 100%;
   display: grid;
   gap: 4em;
+}
+
+li {
+  display: grid;
+  place-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,7 +54,7 @@ import { PROJECTS } from '../../constants.js'
     padding: 6em 4em;
   }
 
-  .projects-container {
+  ul {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -57,7 +68,7 @@ import { PROJECTS } from '../../constants.js'
     padding: 3em;
   }
 
-  .projects-container {
+  ul {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

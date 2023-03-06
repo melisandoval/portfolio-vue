@@ -1,5 +1,5 @@
 <template>
-  <div class="project-card">
+  <li class="project-card">
     <div class="project-img-container">
       <img :src="img" :alt="alt" />
     </div>
@@ -9,7 +9,7 @@
         <span v-for="(item, index) in props.stack" :key="index">{{ item }}</span>
       </p>
     </div>
-  </div>
+  </li>
 </template>
 
 <script setup>
