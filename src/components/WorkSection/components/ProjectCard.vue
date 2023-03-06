@@ -21,6 +21,8 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
   max-width: 100%;
   padding: 1em;
   color: #2d2d2d;
+  border-radius: 0.3em;
+  background-color: #f3afa80f;
 }
 
 .project-card:hover {
@@ -33,6 +35,7 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
   max-width: 100%;
   object-fit: cover;
   margin: 1em 0;
+  border-radius: 0.3em;
 }
 
 .project-img-container {
