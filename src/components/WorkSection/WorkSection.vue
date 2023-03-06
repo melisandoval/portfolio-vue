@@ -1,5 +1,11 @@
 <template>
   <section id="work" class="work-section-container">
+    <ProjectModal
+      v-if="showProjectModal"
+      :project-id="selectedProjectId"
+      :scrollPosition="scrollPosition"
+      @onCloseButtonClicked="handleCloseProjectModal"
+    />
     <h2>Work</h2>
     <p>Check out some of my favourite projects.</p>
     <div class="projects-container">
@@ -11,6 +17,8 @@
           :alt="project.alt"
           :title="project.title"
           :stack="project.stack"
+          :projectId="project.id"
+          @onProjectCardClicked="handleShowProjectModal"
         />
       </ul>
     </div>
@@ -22,6 +30,23 @@
 import LinkPrimary from '../LinkPrimary.vue'
 import ProjectCard from './components/ProjectCard.vue'
 import { PROJECTS } from '../../constants.js'
+import ProjectModal from './components/ProjectModal.vue'
+import { ref } from 'vue'
+
+const showProjectModal = ref(false)
+const selectedProjectId = ref(0)
+const scrollPosition = ref('')
+
+function handleShowProjectModal(projectId, scrollY) {
+  showProjectModal.value = true
+  selectedProjectId.value = projectId
+  scrollPosition.value = `${scrollY - 3400}px`
+  console.log(scrollPosition.value)
+}
+
+function handleCloseProjectModal() {
+  showProjectModal.value = false
+}
 </script>
 
 <style scoped>
@@ -29,9 +54,11 @@ import { PROJECTS } from '../../constants.js'
   padding: 2em 1em;
   text-align: center;
   max-width: 100%;
+  position: relative;
 }
 
 .projects-container {
+  position: relative;
   margin-bottom: 4em;
   padding: 2em 1em;
   max-width: 100%;

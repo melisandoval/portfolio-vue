@@ -1,5 +1,5 @@
 <template>
-  <li class="project-card">
+  <li class="project-card" @click="handleOnCardClick">
     <div class="project-img-container">
       <img :src="img" :alt="alt" />
     </div>
@@ -13,13 +13,18 @@
 </template>
 
 <script setup>
-const props = defineProps(['img', 'alt', 'title', 'stack'])
+const props = defineProps(['img', 'alt', 'title', 'stack', 'projectId'])
+const emit = defineEmits(['onProjectCardClicked'])
+
+function handleOnCardClick() {
+  emit('onProjectCardClicked', props.projectId, window.scrollY)
+}
 </script>
 
 <style scoped>
 .project-card {
   max-width: 100%;
-  padding: 2em;
+  padding: 1em;
   color: #2d2d2d;
   border-radius: 0.3em;
 }

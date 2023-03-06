@@ -23,7 +23,7 @@ function handleChange() {
 <style scoped>
 .mobile-navbar-container {
   position: absolute;
-  z-index: 100;
+  z-index: 2;
   height: 100vh;
   width: 100vw;
   display: grid;

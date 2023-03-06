@@ -17,6 +17,7 @@ import NavBarLinks from './components/NavBarLinks.vue'
   width: 100%;
   position: fixed;
   background-color: #ffffff;
+  z-index: 10;
 }
 
 nav {
