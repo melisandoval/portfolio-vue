@@ -56,7 +56,7 @@ export const PROJECTS = [
   {
     id: 5,
     img: '/assets/projects/projects-cool-dogs.jpg',
-    alt: 'Screenshot of Cool Dogs Product Page',
+    alt: 'Image of Cool Dogs Product Page',
     title: 'Cool Dogs Product Page',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.']
   },

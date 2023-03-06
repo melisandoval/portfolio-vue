@@ -32,21 +32,16 @@ import { PROJECTS } from '../../constants.js'
 }
 
 .projects-container {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   padding: 2em 1em;
   max-width: 100%;
   text-align: left;
 }
 
 ul {
-  width: 100%;
+  max-width: 100%;
   display: grid;
-  gap: 4em;
-}
-
-li {
-  display: grid;
-  place-items: center;
+  gap: 2em;
 }
 
 @media screen and (min-width: 768px) {

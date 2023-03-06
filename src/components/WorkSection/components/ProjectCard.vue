@@ -3,7 +3,7 @@
     <div class="project-img-container">
       <img :src="img" :alt="alt" />
     </div>
-    <div>
+    <div class="project-card-text-container">
       <h3>{{ props.title }}</h3>
       <p class="stack">
         <span v-for="(item, index) in props.stack" :key="index">{{ item }}</span>
@@ -19,10 +19,9 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
 <style scoped>
 .project-card {
   max-width: 100%;
-  padding: 1em;
+  padding: 2em;
   color: #2d2d2d;
   border-radius: 0.3em;
-  background-color: #f3afa80f;
 }
 
 .project-card:hover {
@@ -34,12 +33,15 @@ const props = defineProps(['img', 'alt', 'title', 'stack'])
 .project-card img {
   max-width: 100%;
   object-fit: cover;
-  margin: 1em 0;
   border-radius: 0.3em;
 }
 
 .project-img-container {
   aspect-ratio: 16/9;
+}
+
+.project-card-text-container {
+  width: 100%;
 }
 
 h3 {
