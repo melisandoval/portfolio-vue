@@ -29,8 +29,8 @@
             praesentium cumque laudantium voluptatum minima. Tenetur, enim libero.
           </p>
           <div class="links-container">
-            <LinkPrimary href="#" text="Source code" target="_blank" />
-            <LinkSecondary href="#" text="Live version" target="_blank" />
+            <LinkPrimary :href="project.repository" text="Source code" target="_blank" />
+            <LinkSecondary :href="project.live" text="Live version" target="_blank" />
           </div>
         </article>
       </div>

@@ -31,8 +31,8 @@ export const PROJECTS = [
     alt: 'Logo of My Lists App',
     title: 'My Lists App',
     stack: ['Vue.js,', 'Vue Router,', 'Pinia,', 'Supabase,', 'CSS3.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/vue-supabase-my-lists-app',
+    live: 'https://my-lists-melisandoval.netlify.app/'
   },
   {
     id: 2,
@@ -40,8 +40,8 @@ export const PROJECTS = [
     alt: 'Logo of Circle Agency Website',
     title: 'Circle Agency Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript,', 'Firebase.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/circle-agency-clone',
+    live: 'https://circle-website-clone-msandoval.netlify.app/'
   },
   {
     id: 3,
@@ -49,8 +49,8 @@ export const PROJECTS = [
     alt: 'Image from The Simpsons Memory Game',
     title: 'The Simpsons Memory Game',
     stack: ['React,', 'CSS3.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/react-memory-game-simpsons',
+    live: 'https://memory-game-simpsons.vercel.app/'
   },
   {
     id: 4,
@@ -58,8 +58,8 @@ export const PROJECTS = [
     alt: 'Image from First Portfolio Website',
     title: 'First Portfolio Website',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/personal-portfolio',
+    live: 'https://melisandoval.github.io/personal-portfolio/'
   },
   {
     id: 5,
@@ -67,8 +67,8 @@ export const PROJECTS = [
     alt: 'Image of Cool Dogs Product Page',
     title: 'Cool Dogs Product Page',
     stack: ['HTML5,', 'CSS3,', 'JavaScript.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/fcc-cool-dogs-product-landing-page',
+    live: 'https://melisandoval.github.io/fcc-cool-dogs-product-landing-page/product.html'
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ export const PROJECTS = [
     alt: 'Screenshot of Janis Joplin Tribute Website',
     title: 'Janis Joplin Tribute Website',
     stack: ['HTML5,', 'CSS3.'],
-    repository: '',
-    live: ''
+    repository: 'https://github.com/melisandoval/fcc-project-tribute-page',
+    live: 'https://melisandoval.github.io/fcc-project-tribute-page/'
   }
 ]

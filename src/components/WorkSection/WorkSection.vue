@@ -41,7 +41,6 @@ function handleShowProjectModal(projectId, scrollY) {
   showProjectModal.value = true
   selectedProjectId.value = projectId
   scrollPosition.value = `${scrollY - 3400}px`
-  console.log(scrollPosition.value)
 }
 
 function handleCloseProjectModal() {
