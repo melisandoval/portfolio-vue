@@ -2,8 +2,7 @@
   <section id="contact">
     <div class="contact-list-container">
       <div class="contact-title-container">
-        <h2>Get it touch</h2>
-        <SVGCoffee />
+        <h2>Get in touch</h2>
       </div>
       <ul>
         <li><IconLinkEmail /></li>
@@ -19,7 +18,6 @@
 import IconLinkEmail from './components/IconLinkEmail.vue'
 import IconLinkLinkedIn from './components/IconLinkLinkedIn.vue'
 import IconLinkGitHub from './components/IconLinkGitHub.vue'
-import SVGCoffee from './components/SVGCoffee.vue'
 import LinkPrimary from '../LinkPrimary.vue'
 </script>
 
@@ -32,21 +30,21 @@ import LinkPrimary from '../LinkPrimary.vue'
   margin-bottom: 6em;
 }
 
-.contact-title-container {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
 .contact-list-container {
   width: 100%;
   display: grid;
   place-items: center;
 }
 
+.contact-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
 h2 {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  display: flex;
+  align-items: center;
 }
 
 ul {
