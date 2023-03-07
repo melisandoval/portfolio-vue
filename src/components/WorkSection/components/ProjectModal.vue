@@ -8,7 +8,7 @@
       </div>
       <div class="modal-content-container">
         <div class="img-and-stack">
-          <img :src="project.img" :alt="project.alt" />
+          <img :src="project.imgScreenshot" :alt="project.alt" loading="lazy" />
           <h4>Stack:</h4>
           <p class="stack">
             <span v-for="(item, index) in project?.stack" :key="index">{{ item }}</span>
@@ -71,8 +71,10 @@ const project = computed(() => {
   max-width: 100%;
 }
 
-img {
+.img-and-stack img {
   max-width: 100%;
+  border: 0.2em solid #f3afa8;
+  border-radius: 0.2em;
 }
 
 .stack {
@@ -127,7 +129,7 @@ h3 {
   }
 
   article {
-    padding: 0 1.5em;
+    padding: 0 2em;
   }
 }
 </style>
