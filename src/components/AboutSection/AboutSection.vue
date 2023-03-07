@@ -4,20 +4,29 @@
       <article>
         <h2>About</h2>
         <p>
-          Front-end developer with solid technical skills, strong eye for UI/UX and a proactive,
-          creative and highly organized personality. With more than one year of experience
-          developing and designing applications and webpages, I am eager to keep creating digital
-          products and learn new technologies and best practices. Whether working solo or as part of
-          a team, I bring my full dedication and enthusiasm to every project and always strive to
-          develop the most quality and user-friendly solution.
+          Welcome to my portfolio! 🙌 😊 I am a Front-end Web Developer with a strong eye for the
+          User Interface and User Experience (UI/UX). I have high empathy for the people behind the
+          screens and because of that I am very good at finding bugs and proposing new ideas to
+          improve the products I work on.
         </p>
         <p>
-          As part of education, I successfully completed a 300-hour Front-end Bootcamp at Ironhack,
-          a 300-hour Responsive Web Design course at freeCodeCamp and a 300-hour JavaScript
-          Algorithms and Data Structures course at the same self-taught educative platform. These
-          courses have allowed me to have a solid base of software development skills, that then I
-          expanded through developing side projects that you can find here, and in my GitHub
-          account.
+          As for the technical aspects, I have a solid foundation of HTML5, CSS3 and programming
+          with JavaScript ES6+, always caring about accessibility, responsive layouts and writing
+          the cleanest code to help my team. I am right now in the process of learning best
+          practices in order to become a better developer. Also, I am currently enjoying a lot
+          creating Single Page Applications (SPA) with React and Vue.js.
+        </p>
+        <p>
+          Check out some of the personal <a href="#work" class="inline-link">projects</a> I've been
+          working on, and feel free to <a class="inline-link">download my resume</a> to find more
+          info about my work and professional background, or reach out to me on
+          <a
+            href="https://www.linkedin.com/in/melisandoval/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-link"
+            >LinkedIn</a
+          >.
         </p>
       </article>
       <section>
@@ -63,6 +72,8 @@ import { TOOLS_LOGOS } from '../../constants.js'
   padding: 2em 1em;
   text-align: center;
   color: #ffffff;
+  display: grid;
+  place-items: center;
 }
 
 .about-content-container {
@@ -79,6 +90,16 @@ h2 {
 
 p {
   padding: 1em 0;
+}
+
+.inline-link {
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.inline-link:hover {
+  color: #2d2d2d;
 }
 
 .skills-logos-container {
@@ -104,7 +125,11 @@ p {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width: 2059px) {
+  .about-content-container {
+    max-width: 900px;
+  }
+
   .logos-section {
     display: grid;
     place-items: center;
