@@ -79,6 +79,16 @@ ul {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .work-section-container {
+    padding: 6em;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .work-section-container {
     padding: 6em 15em;
