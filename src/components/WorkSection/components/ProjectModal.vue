@@ -2,7 +2,7 @@
   <div class="modal-container">
     <section class="project-modal">
       <div class="close-button-container">
-        <button @click="$emit('onCloseButtonClicked')" class="close-button">
+        <button @click="handleOnCloseButtonClicked" class="close-button">
           <SVGIconClose />
         </button>
       </div>
@@ -37,10 +37,15 @@ import { computed } from 'vue'
 import { PROJECTS } from '../../../constants.js'
 
 const props = defineProps(['projectId'])
+const emit = defineEmits(['onCloseButtonClicked'])
 
 const project = computed(() => {
   return PROJECTS.filter((project) => project.id === props.projectId)[0]
 })
+
+function handleOnCloseButtonClicked() {
+  emit('onCloseButtonClicked', props.projectId)
+}
 </script>
 
 <style scoped>
@@ -49,15 +54,18 @@ const project = computed(() => {
   width: 100%;
   min-height: 100%;
   display: grid;
-  align-items: center;
+  align-items: start;
   justify-items: center;
   z-index: 5;
-  left: 0px;
   background-color: #ff6352;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .project-modal {
   position: relative;
+  margin-top: 50%;
   max-width: 80%;
   height: fit-content;
   background-color: #ffffff;
@@ -117,6 +125,7 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .project-modal {
+    margin-top: 30%;
     max-width: 60%;
   }
 }
@@ -130,6 +139,12 @@ h3 {
 
   article {
     padding: 0 2em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .project-modal {
+    margin-top: 25%;
   }
 }
 </style>

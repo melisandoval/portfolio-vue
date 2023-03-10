@@ -19,6 +19,7 @@
           :stack="project.stack"
           :projectId="project.id"
           @onProjectCardClicked="handleShowProjectModal"
+          :id="project.id"
         />
       </ul>
     </div>
@@ -38,11 +39,19 @@ const selectedProjectId = ref(0)
 const scrollPosition = ref('')
 
 function handleShowProjectModal(projectId) {
+  // to position modal in a fixed view:
+  const sectionH2 = document.querySelector('#work h2')
+  sectionH2.scrollIntoView()
+
   showProjectModal.value = true
   selectedProjectId.value = projectId
 }
 
-function handleCloseProjectModal() {
+function handleCloseProjectModal(projectId) {
+  // to return to the card seen on screen before open the modal:
+  const cardClosed = document.getElementById(projectId)
+  cardClosed.scrollIntoView({ behavior: 'auto', block: 'center' })
+
   showProjectModal.value = false
 }
 </script>
