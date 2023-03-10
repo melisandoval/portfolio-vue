@@ -2,7 +2,7 @@
   <div id="#app"></div>
   <body>
     <NavBarMobile v-if="showMobileMenu" @onMobileNavbarLinkClicked="handleCloseMobileNavbar" />
-    <NavBar @onBurgerMenuClicked="handleShowMobileNavbar" />
+    <NavBar @onBurgerMenuClicked="toggleMobileNavbar" />
     <main>
       <HeaderHero />
       <AboutSection />
@@ -25,10 +25,9 @@ import FooterSection from './components/FooterSection/FooterSection.vue'
 
 const showMobileMenu = ref(false)
 
-function handleShowMobileNavbar() {
-  console.log('handleShowMobileNavbar clicked')
+function toggleMobileNavbar() {
   window.scrollTo(0, 0)
-  showMobileMenu.value = true
+  showMobileMenu.value = !showMobileMenu.value
 }
 
 function handleCloseMobileNavbar() {
