@@ -8,7 +8,7 @@
     />
     <h2>Work</h2>
     <p>Check out some of my favourite projects.</p>
-    <div class="projects-container">
+    <div class="projects-container" id="projects-container">
       <ul>
         <ProjectCard
           v-for="project in PROJECTS"
