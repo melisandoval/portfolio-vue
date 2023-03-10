@@ -8,7 +8,7 @@
       </div>
       <div class="modal-content-container">
         <div class="img-and-stack">
-          <img :src="project.imgScreenshot" :alt="project.alt" loading="lazy" />
+          <img :src="project.imgScreenshot" :alt="project.alt" />
           <h4>Stack:</h4>
           <p class="stack">
             <span v-for="(item, index) in project?.stack" :key="index">{{ item }}</span>
