@@ -18,8 +18,14 @@
         </p>
         <p>
           Check out some of the personal <a href="#work" class="inline-link">projects</a> I've been
-          working on, and feel free to <a class="inline-link">download my resume</a> to find more
-          info about my work and professional background, or reach out to me on
+          working on, and feel free to
+          <a
+            class="inline-link"
+            href="https://onedrive.live.com/embed?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
+            target="_blank"
+            >read my resume</a
+          >
+          to find more info about my work and professional background, or reach out to me on
           <a
             href="https://www.linkedin.com/in/melisandoval/"
             target="_blank"

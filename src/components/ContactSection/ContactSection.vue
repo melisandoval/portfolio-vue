@@ -9,7 +9,10 @@
         <li><IconLinkLinkedIn /></li>
         <li><IconLinkGitHub /></li>
       </ul>
-      <LinkPrimary href="#" text="Download CV" />
+      <LinkPrimary
+        href="https://onedrive.live.com/download?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
+        text="Download CV"
+      />
     </div>
   </section>
 </template>

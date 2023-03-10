@@ -12,7 +12,11 @@
         <p>I create beautiful, user-friendly digital products.</p>
         <div class="header-links-container">
           <LinkPrimary href="#contact" text="Contact me" />
-          <LinkSecondary href="#" text="Download CV" />
+          <LinkSecondary
+            href="https://onedrive.live.com/embed?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
+            text="Download CV"
+            target="_blank"
+          />
         </div>
       </article>
       <div class="header-img-container">
