@@ -49,6 +49,7 @@ function handleCloseProjectModal() {
 
 <style scoped>
 .work-section-container {
+  margin-top: 6em;
   padding: 2em 1em;
   text-align: center;
   max-width: 100%;

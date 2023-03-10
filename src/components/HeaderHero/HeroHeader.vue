@@ -29,7 +29,7 @@ import LinkSecondary from '../LinkSecondary.vue'
 
 <style scoped>
 .header-container {
-  padding-top: 2em;
+  padding-top: 4em;
   max-width: 100%;
 }
 .header-content-container {

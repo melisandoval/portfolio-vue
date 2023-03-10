@@ -8,7 +8,7 @@
       <p class="stack">
         <span v-for="(item, index) in props.stack" :key="index">{{ item }}</span>
       </p>
-      <button class="see-more-button" @click="handleOnCardClick">See more</button>
+      <!-- <button class="see-more-button" @click="handleOnCardClick">See more</button> -->
     </div>
   </li>
 </template>
@@ -26,12 +26,14 @@ function handleOnCardClick() {
 .project-card {
   max-width: 100%;
   padding: 1em;
-  background-color: #f3afa8;
-  color: #ffffff;
+  color: #2d2d2d;
   border-radius: 0.3em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .project-card:hover {
+  background-color: #f3afa8;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -69,19 +71,19 @@ p span {
 }
 
 .see-more-button {
-  align-self: center;
-  padding: 1em;
-  margin: 1em 0;
-  min-width: 140px;
+  align-self: end;
+  margin-top: 0.5em;
+  padding: 0.6em;
   border-radius: 0.4em;
   background-color: #ffffff;
   color: #f3afa8;
-  font-size: calc(0.7rem + 0.390625vw);
+  font-size: calc(0.6rem + 0.390625vw);
   font-weight: bold;
 }
 
 .see-more-button:hover {
   cursor: pointer;
-  text-decoration: underline;
+  background-color: #f3afa8;
+  color: #ffffff;
 }
 </style>

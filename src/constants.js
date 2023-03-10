@@ -34,7 +34,7 @@ export const PROJECTS = [
     repository: 'https://github.com/melisandoval/vue-supabase-my-lists-app',
     live: 'https://my-lists-melisandoval.netlify.app/',
     description: [
-      'Platform that allows logged users to create, edit and delete several lists and its items. Also organize the items by done, not done and favorites and filter them.'
+      'This is a responsive web app that allows logged users to create, edit and delete several lists. In each list, users can create new items, delete them and organize them by done, not-done and favorites. Also, the users can filter the items by the same categories.'
     ],
     imgScreenshot: '/assets/projects/projects-my-lists-screenshot.jpg'
   },
@@ -47,7 +47,7 @@ export const PROJECTS = [
     repository: 'https://github.com/melisandoval/circle-agency-clone',
     live: 'https://circle-website-clone-msandoval.netlify.app/',
     description: [
-      'Institutional responsive website of a made up agency with three landing pages (Homepage, Product page and Contact page). Product page has dynamic URL. The website reads and post data to a Firebase database.'
+      'This was an academic project in which the requirement was to build a responsive website with three landing pages (Homepage, Product page and Contact page), all based on a provided Figma Design, using vanilla JavaScript and an API to read and post data (I chose Firebase).'
     ],
     imgScreenshot: '/assets/projects/projects-circle-screenshot.jpg'
   },
@@ -60,7 +60,7 @@ export const PROJECTS = [
     repository: 'https://github.com/melisandoval/react-memory-game-simpsons',
     live: 'https://memory-game-simpsons.vercel.app/',
     description: [
-      'Online memory game where any user can choose between three options of number of cards. Cards characters change in every game.'
+      'This is an online web game where any user can choose to play with 12, 18 or 24 cards. The Simpsons characters change in every game! When the game end, the player is informed about how many moves did and what was the time spent to complete it.'
     ],
     imgScreenshot: '/assets/projects/projects-simpsons-memory-screenshot.jpg'
   },
@@ -72,7 +72,9 @@ export const PROJECTS = [
     stack: ['HTML5,', 'CSS3,', 'JavaScript.'],
     repository: 'https://github.com/melisandoval/personal-portfolio',
     live: 'https://melisandoval.github.io/personal-portfolio/',
-    description: ['My first responsive portfolio website.'],
+    description: [
+      'This was my first portfolio website that I created in 2022. I designed it myself and built with plain HTML5, CSS3 and a little bit of JavaScript. One year later, I wanted to design a new one with a JavaScript framework (Vue.js) and a different style (is this portfolio you are seeing right now!😄). Even though now I like more the new one, I think that this one was pretty good.'
+    ],
     imgScreenshot: '/assets/projects/projects-first-portfolio.jpg'
   },
   {

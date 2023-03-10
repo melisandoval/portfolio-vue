@@ -23,7 +23,7 @@ import LinkPrimary from '../LinkPrimary.vue'
 
 <style scoped>
 #contact {
-  min-height: 76vh;
+  min-height: 74vh;
   text-align: center;
   display: grid;
   place-items: center;
