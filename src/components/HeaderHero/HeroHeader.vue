@@ -145,6 +145,10 @@ img {
   .header-img-container {
     max-width: 70%;
   }
+
+  .h1-major {
+    font-size: calc(3.6rem + 0.390625vw);
+  }
 }
 
 @media screen and (min-width: 2560px) {
