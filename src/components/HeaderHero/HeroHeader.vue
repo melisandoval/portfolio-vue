@@ -13,8 +13,8 @@
         <div class="header-links-container">
           <LinkPrimary href="#contact" text="Contact me" />
           <LinkSecondary
-            href="https://onedrive.live.com/embed?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
-            text="Download CV"
+            href="https://1drv.ms/b/s!AklAd3G_Dh0jhxM--mYodVhy2n-J?e=t2yX5w"
+            text="See resume"
             target="_blank"
           />
         </div>

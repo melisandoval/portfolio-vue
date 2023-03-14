@@ -11,7 +11,7 @@
       </ul>
       <LinkPrimary
         href="https://onedrive.live.com/download?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
-        text="Download CV"
+        text="Download Resume"
       />
     </div>
   </section>

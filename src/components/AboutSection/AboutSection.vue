@@ -21,7 +21,7 @@
           working on, and feel free to
           <a
             class="inline-link"
-            href="https://onedrive.live.com/embed?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
+            href="https://1drv.ms/b/s!AklAd3G_Dh0jhxM--mYodVhy2n-J?e=t2yX5w"
             target="_blank"
             >read my resume</a
           >
