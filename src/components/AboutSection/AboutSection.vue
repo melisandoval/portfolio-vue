@@ -36,7 +36,7 @@
         </p>
       </article>
       <section>
-        <h2>Tech stack</h2>
+        <h2>Languages and frameworks:</h2>
         <div class="logos-section">
           <div class="skills-logos-container">
             <SkillsLogo
@@ -48,7 +48,7 @@
             />
           </div>
         </div>
-        <h2>Tools</h2>
+        <h2>Dev tools, services and other tools:</h2>
         <div class="logos-section">
           <div class="skills-logos-container">
             <SkillsLogo

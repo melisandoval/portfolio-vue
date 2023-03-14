@@ -7,7 +7,7 @@
       @onCloseButtonClicked="handleCloseProjectModal"
     />
     <h2>Work</h2>
-    <p>Check out some of my favourite projects.</p>
+    <p>Check out some of the projects I've been working on.</p>
     <div class="projects-container" id="projects-container">
       <ul>
         <ProjectCard
