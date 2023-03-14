@@ -2,8 +2,8 @@
   <div class="footer-container">
     <footer>
       <p>
-        Portfolio website developed by
-        <a href="https://github.com/melisandoval" target="_blank">Melisa Sandoval</a>.
+        © 2023
+        <a href="https://github.com/melisandoval" target="_blank"> Melisa Sandoval</a>
       </p>
     </footer>
   </div>
@@ -28,7 +28,7 @@ footer {
 }
 
 p,
-a {
+p a {
   font-size: calc(0.5rem + 0.390625vw);
   color: white;
 }
