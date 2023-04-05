@@ -13,7 +13,7 @@
         <div class="header-links-container">
           <LinkPrimary href="#contact" text="Contact me" />
           <LinkSecondary
-            href="https://1drv.ms/b/s!AklAd3G_Dh0jhxM--mYodVhy2n-J?e=t2yX5w"
+            href="https://1drv.ms/b/s!AklAd3G_Dh0jhxXpu3KP4lzKALQ8?e=qR63CV"
             text="See resume"
             target="_blank"
           />

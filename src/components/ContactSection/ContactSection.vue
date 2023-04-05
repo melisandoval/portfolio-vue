@@ -10,7 +10,7 @@
         <li><IconLinkGitHub /></li>
       </ul>
       <LinkPrimary
-        href="https://onedrive.live.com/download?cid=231D0EBF71774049&resid=231D0EBF71774049%21915&authkey=ADp3JdzBMihyzZU&em=2"
+        href="https://onedrive.live.com/download?cid=231D0EBF71774049&resid=231D0EBF71774049%21917&authkey=ANfA0qq2-MmHZ74&em=2"
         text="Download Resume"
       />
     </div>
